@@ -63,7 +63,7 @@ console.warn('Something might be wrong');
 console.error('An error occurred');
 ```
 
-### Server Output
+### Terminal Output
 
 ```bash
 > console-link is running on ws://localhost:5001
