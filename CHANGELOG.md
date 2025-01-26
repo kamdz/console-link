@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/kamdz/console-link/compare/v1.0.0...v1.0.1) (2025-01-26)
+
+
+### Bug Fixes
+
+* publish to npm ([d32a339](https://github.com/kamdz/console-link/commit/d32a339b3fbe3ac8e28b57446ecc928933678460))
+
 # 1.0.0 (2025-01-26)
 
 
