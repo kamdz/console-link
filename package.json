@@ -1,6 +1,6 @@
 {
   "name": "console-link",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Development tool that streams client-side console.log messages to your server-side terminal via WebSocket.",
   "keywords": [
     "console",
