@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/kamdz/console-link/compare/v1.1.0...v1.1.1) (2025-01-27)
+
+
+### Bug Fixes
+
+* update README.md ([a220d1e](https://github.com/kamdz/console-link/commit/a220d1eedbd35f03c338a553f3f3a984ce35024e))
+
 # [1.1.0](https://github.com/kamdz/console-link/compare/v1.0.2...v1.1.0) (2025-01-27)
 
 
