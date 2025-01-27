@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Simple Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="../dist/prompt.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <input type="text" id="message" placeholder="Enter your message" />
+      <button class="log-button" onclick="console.log(document.getElementById('message').value)">
+        console.log
+      </button>
+      <button class="warn-button" onclick="console.warn(document.getElementById('message').value)">
+        console.warn
+      </button>
+      <button class="error-button" onclick="console.error(document.getElementById('message').value)">
+        console.error
+      </button>
+    </div>
+  </body>
+</html>

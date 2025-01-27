@@ -34,12 +34,16 @@
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
+    },
+    "./prompt": {
+      "import": "./dist/prompt.js",
+      "require": "./dist/prompt.cjs"
     }
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "bin": "./dist/cli.js",
+  "bin": "./dist/server.js",
   "files": [
     "dist",
     "package.json",
@@ -49,7 +53,6 @@
   ],
   "scripts": {
     "build": "tsup",
-    "cli": "tsx bin/cli.ts",
     "commit": "cz",
     "demo": "http-server .",
     "dev": "tsx watch src/index.ts",
@@ -58,6 +61,7 @@
     "lint": "eslint . --fix",
     "lint-staged": "lint-staged",
     "prepare": "husky",
+    "server": "tsx bin/server.ts",
     "start": "tsx src/index.ts",
     "test": "jest --coverage --passWithNoTests",
     "type-check": "tsc --noEmit"

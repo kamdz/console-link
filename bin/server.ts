@@ -1,7 +1,9 @@
 import { parse } from 'flatted';
 import { WebSocketServer } from 'ws';
 
-const server = new WebSocketServer({ port: 5001 });
+const port = Number(process.argv[2]) || 5001;
+
+const server = new WebSocketServer({ port });
 
 server.on('connection', ws => {
   console.log('> console-link client connected');
@@ -20,4 +22,4 @@ server.on('connection', ws => {
   });
 });
 
-console.log('> console-link is running on ws://localhost:5001');
+console.log(`> console-link is running on ws://localhost:${port}`);

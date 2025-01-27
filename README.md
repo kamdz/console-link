@@ -1,7 +1,7 @@
 # 🔗 console-link
 
 Effortlessly stream client-side `console.log` messages to your server-side terminal via WebSocket. Debugging across environments has never been easier!  
-This is just a proof of concept and intended only for development purposes.
+This is just a proof of concept and intended only for development purposes. Works only on localhost.
 
 ## 🚀 Features
 
@@ -44,7 +44,34 @@ import 'console-link';
 
 #### 3. Paste in DevTools
 
-Simply copy the distributed code (available at [https://www.unpkg.com/console-link](https://www.unpkg.com/console-link)) and paste it into your browser's DevTools console. This works on your site, localhost, etc.
+Simply copy the distributed code (available at [https://www.unpkg.com/console-link](https://www.unpkg.com/console-link)) and paste it into your browser's DevTools console.
+
+## ⚙️ Port Customization
+
+Need to configure a specific port for your WebSocket server? Start by specifying the port directly when running the command:
+
+```bash
+console-link [PORT_NUMBER]
+```
+
+Replace `[PORT_NUMBER]` with any available port you need. For example:
+
+```bash
+console-link 2137
+```
+
+This starts the WebSocket server on port `2137`.
+If you'd like to set a custom port interactively on the client side, simply use `console-link/prompt` instead of `console-link`. For example:
+
+```typescript
+import 'console-link/prompt';
+```
+
+or
+
+```html
+<script src="https://www.unpkg.com/console-link/prompt"></script>
+```
 
 ## 🧠 How It Works
 

@@ -4,8 +4,9 @@ export default defineConfig({
   clean: true,
   dts: true,
   entry: {
-    cli: 'bin/cli.ts',
-    index: 'src/index.ts'
+    server: 'bin/server.ts',
+    index: 'src/index.ts',
+    prompt: 'src/prompt.ts'
   },
   format: ['cjs', 'esm'],
   minify: true,
