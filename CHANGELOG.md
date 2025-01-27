@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/kamdz/console-link/compare/v1.0.2...v1.1.0) (2025-01-27)
+
+
+### Bug Fixes
+
+* yarnlock ([fe71eaa](https://github.com/kamdz/console-link/commit/fe71eaa8c5865e64b95ed9f4947591f0399b59f9))
+
+
+### Features
+
+* custom port ([ab4c3c5](https://github.com/kamdz/console-link/commit/ab4c3c55ae9f4195311998529f3ccdd5b416e61d))
+
 ## [1.0.2](https://github.com/kamdz/console-link/compare/v1.0.1...v1.0.2) (2025-01-27)
 
 
