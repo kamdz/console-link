@@ -3543,7 +3543,7 @@ __metadata:
     typescript-eslint: "npm:^8.21.0"
     ws: "npm:^8.18.0"
   bin:
-    console-link: ./dist/cli.js
+    console-link: ./dist/server.js
   languageName: unknown
   linkType: soft
 
