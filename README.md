@@ -67,11 +67,13 @@ If you'd like to set a custom port interactively on the client side, simply use 
 import 'console-link/prompt';
 ```
 
-or
+or include it in your HTML:  
 
 ```html
-<script src="https://www.unpkg.com/console-link/prompt"></script>
-```
+<script src="https://www.unpkg.com/console-link/dist/prompt.js"></script>
+```  
+
+> **Note**: Make sure to use the full URL (`https://www.unpkg.com/console-link/dist/prompt.js`) as the shorter link (`https://www.unpkg.com/console-link/prompt`) doesn't work.
 
 ## 🧠 How It Works
 
