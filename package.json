@@ -107,16 +107,16 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
-    "@eslint/compat": "^1.2.5",
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@eslint/compat": "^1.2.6",
     "@eslint/js": "^9.18.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/fs-extra": "^11.0.4",
     "@types/jest": "^29.5.14",
-    "@types/node": "^22.10.10",
+    "@types/node": "^22.13.1",
     "@types/ws": "^8",
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
@@ -135,7 +135,7 @@
     "tsup": "^8.3.5",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.21.0"
+    "typescript-eslint": "^8.23.0"
   },
   "packageManager": "yarn@4.5.1",
   "dependencies": {
